@@ -1,0 +1,364 @@
+.Cuadro_Opcion_1{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    width:284px;
+    height:380px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_2{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    width:284px;
+    height:289px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_3{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    width:284px;
+    height:289px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_1:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Cuadro_Opcion_2:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Cuadro_Opcion_3:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Indice_AF p.Referencia_AF1{
+    color: #878c8f;
+    opacity: 0.4;
+    display: inline-block;
+    margin-left: 375px;
+    text-transform: uppercase;
+    font-family: 'Geometria',sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;  
+    padding:15px;
+    border-bottom: 0.25px solid #878c8f;
+}
+.Indice_AF a{
+    text-decoration: none;
+}
+.Indice_AF a:hover{
+    color:#37cb73;
+}
+.Indice_AF p.Referencia_AF2{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Geometria',sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+    color: #0f191e;
+    padding:15px;
+    border-bottom: 0.25px solid #878c8f;
+}
+.Titulo_AF{
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -3px;
+    font-weight: 200;
+    font-family: "Monserrat",sans-serif;
+    text-align: center;
+}
+.C_O1_TEXT{
+    font-family: "Geometria",sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -.5px;
+    font-weight: 500;
+    align-content: center;
+    margin-left: 40px;
+    width:200px;
+}
+.C_O2_TEXT{
+    font-family: "Monserrat",Arial,sans-serif;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    align-content: center;
+    margin-left: 40px;
+    width:200px;
+    color: gray;
+}
+.C_O3_TEXT{
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    font-size: 20px;
+    margin-left: 30px;
+    width:200px;
+}
+.C_01_IMAGE{
+    width: 110px;
+    height: 110px;
+    margin-top:40px;
+    max-width: 100%;
+    margin-left: 85px;
+}
+.C_02_IMAGE{
+    width: 110px;
+    height: 110px;
+    margin-top:40px;
+    max-width: 100%;
+    margin-left: 80px;
+}
+.C_03_IMAGE{
+    width: 110px;
+    height: 110px;
+    margin-top:40px;
+    max-width: 100%;
+    margin-left: 80px;
+}
+
+.C_01_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+.C_02_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+.C_03_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+div.Dudas_Interbank{
+    display: inline-block;
+    border-radius: 8px;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    width:59%;
+    margin-left:21%;
+    margin-bottom: 5%;
+}
+div.Logo_Dudas_Interbank{
+    display: inline-block;
+    width:27%;
+    height:150%;
+}
+div.Text_Logo p.Content_Dudas1{
+    display: block;
+    font-family: "Geometria",sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 36px;
+    width:50%;
+    letter-spacing: -1px;
+}
+div.Text_Logo p.Content_Dudas2{
+    display: block;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    font-size: 14px;
+    width:45%;
+    color: #0f191e;
+    box-sizing: border-box;
+    margin-top: -2%;
+}
+div.Text_Logo div.B_B_W{
+    display: block;
+    height: 48px;
+    width:40%;
+    text-align: center;
+    padding-top: 1%;
+    width: 100%;
+}
+div.Text_Logo div.button_whatsapp a{
+    text-decoration: none;
+    color: #fff;
+}
+div.Text_Logo div.button_whatsapp{
+    display: block;
+    background-color: #05be50;
+    color: #fff;
+    font-size: 14px;
+    height: 48px;
+    width: 22%;
+    text-align: center;
+    font-family: "Geometria",sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    margin-left:67%;
+    margin-top: -13%;
+    border-radius: 5px;
+}
+div.Text_Logo div.B_B_W:hover{
+    background: rgba(255,255,255,0.2);
+}
+div.Text_Logo{
+    margin-left: 25%;
+    margin-top:-20%;
+    margin-bottom: 9.6%;
+}
+div.cajaA{
+    transition-duration: 0s;
+    transform: translateX(0%);
+    width: calc(100%);
+    box-sizing: border-box;
+    display: block;
+}
+div.cajaB{
+    height: 100%;
+    margin-right: 12.5%;
+    white-space: normal;
+    box-sizing: border-box;
+    display: block;
+}
+div.cajaC{
+    height: 100%;
+    margin-bottom: 0 !important;
+    border-radius: 20px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(217, 218, 219);
+    position: relative;
+    transition: border-color 0.25s ease-in-out, transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    padding: 40px 14.285714285714286%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+div.cajaD1{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+div.cajaD1 img{
+    display: inline-block;
+    overflow: hidden;
+    height: 112px;
+    width: 112px;
+    max-width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+div.cajaD2{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: normal;
+}
+div.cajaD2 div.caja9{
+    text-align: center;
+    margin-bottom: 12px;
+}
+div.caja9 div.caja9-A{
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+div.caja9-A h2{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    font-family:'Geometria';
+    font-weight: normal;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+div.caja8{
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}
+div.caja8 p{
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    font-family:'Monserrat';
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.cuadroDesli{
+    margin: 0 24.5% 0 24.5% !important;
+    box-sizing: border-box;
+    height:400px;
+    display: block;
+}
+@font-face{
+    font-family:'InterbankFont';
+    src: url(../Fuentes/Cocon-RegularTR.ttf);
+}
+@font-face{
+    font-family:'Geometria';
+    src: url(../Fuentes/Geometria-Bold.ttf);
+}
+@font-face{
+    font-family:'Monserrat';
+    src: url(../Fuentes/Montserrat-Regular.otf);
+}
+

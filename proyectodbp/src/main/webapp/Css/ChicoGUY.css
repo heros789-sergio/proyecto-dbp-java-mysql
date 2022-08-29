@@ -1,0 +1,119 @@
+div.ambarc{
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    display: block;
+    -webkit-box-direction: normal;
+}
+div.ambc{
+    margin-bottom: -48px;
+    justify-content: center;
+    display: flex;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+a.guyrefe{
+    text-decoration: none;
+    height: 96px;
+    max-width: 100%;
+    opacity: 1;
+    position: relative;
+    z-index: 5;
+    border-radius: 15px;
+    width: 100%;
+    transition: opacity .5s ease-in-out, max-width .5s ease-in-out;
+    padding: 0 7.407407407407407%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F0AA00;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: inherit;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+div.ambx{
+    width: 91.30434782608695%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    box-sizing: border-box;
+}
+div.guy{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: opacity .5s ease-in-out .5s;
+    margin-right: 4.761904761904762%;
+    width: 33.333333333333336%;
+    box-sizing: border-box;
+}
+div.guy img{
+    max-height: 113px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+div.guytext{
+    padding: 16px 0;
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    width: 61.904761904761905%;
+    box-sizing: border-box;
+}
+div.guytext p{
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    color: #fff;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-family: 'Geometria';
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+div.flecha{
+    transition: opacity .5s ease-in-out .95s;
+    height: 100%;
+    position: relative;
+    width: 8.695652173913043%;
+    justify-content: flex-end;
+    display: flex;
+    box-sizing: border-box;
+}
+div.imagensd{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    background-image: url(../Imagenes/descarga.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 32px;
+    width: 32px;
+    animation: moveArrow 1s ease-in-out infinite alternate;
+    display: block;
+    color: inherit;
+}
+@font-face{
+    font-family:'InterbankFont';
+    src: url(../Fuentes/Cocon-RegularTR.ttf);
+}
+@font-face{
+    font-family:'Geometria';
+    src: url(../Fuentes/Geometria-Bold.ttf);
+}
+@font-face{
+    font-family:'Monserrat';
+    src: url(../Fuentes/Montserrat-Regular.otf);
+}
+

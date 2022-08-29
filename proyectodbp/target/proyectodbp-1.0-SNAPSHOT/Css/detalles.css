@@ -1,0 +1,6 @@
+
+button#btnAgregar:hover{
+    background-color: #09803e;
+    cursor: pointer;
+    transition: .5s;
+}

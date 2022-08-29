@@ -1,0 +1,481 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    color: rgb(255, 255, 255);
+    background: #f1f1f1;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+.imagen{
+    position: absolute;
+    display: block;
+    width: 153px;
+    height: 30px;
+    left: 80px;
+}
+
+#main-header {
+    background: rgb(255, 255, 255);
+    color: white;
+    height: 80px;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255); */
+}
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+#main-content {
+    font-family: "Geometria",sans-serif;
+    display: block;
+    background:#05BE50;
+    width: 675px;
+    height: 800px;
+    position:absolute;
+    top:60px;
+    /* max-width: 800px; */
+    /* margin: 20px auto; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+}
+
+/*EL FOOTER*/
+#main-footer {
+    font-family: "Geometria",sans-serif;
+    position:absolute;
+    display: block;
+    left:70px;
+    right:70px ;
+    top: 860px;
+    margin-top: 40px;
+    color: black;
+    /* background: rgb(255, 255, 255); */
+    font-size: 11px;
+}
+.footer2 {
+    font-family: "Geometria",sans-serif;
+    position:absolute;
+    display: block;
+    left:70px;
+    right:70px ;
+    top: 1200px;
+    margin-top: 40px;
+    color: black;
+    /* background: rgb(255, 255, 255); */
+    font-size: 11px;
+}
+
+
+#main-header {
+    background: rgb(255, 255, 255);
+    color: white;
+    height: 60px;
+
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+    box-shadow: 0 0 10px rgba(255, 255, 255);
+    z-index:1;
+}
+a{
+    color: white;
+}
+
+/* --------------CSS PARA LA PARTE DE LOS BOTONES-------------------- */
+.bloque_login {
+    display: block;
+    width: 640px;
+    height: 770px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    /* border: 1px solid #999999; */
+    /* background: #DDDDDD; */
+    /* -moz-border-radius: 20px 10px 30px 50px;
+    -webkit-border-radius: 20px 10px 30px 50px; */
+    /* border-radius: 20px 0px 30px 0px; */
+    position:absolute;
+    left:670px;
+    top:60px;
+    bottom: 80px;
+    /* background-color:white; */
+    border: 20px;
+}
+.titulo2{
+    display: block;
+    /* width: 200px; */
+    width: 400px;
+    text-align: left;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    right: 120px;
+    top: 10px;
+    font-family: "Geometria",sans-serif;
+    color: rgb(61, 58, 58);
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    /* color: inherit; */
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+.camp_dni{
+    display: block;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 170px;
+}
+
+.camp_email{
+    display: block;
+    /*WIDTH se encuentra en el html*/
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 280px;
+}
+
+.select{
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 395px;
+    color:black;
+    background-color: white;
+    border-top: none;border-left: none;border-right: none;/*quitamos los bordes*/
+}
+
+.camp_celular{
+    display: block;
+    /* width: 170px; */
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:310px;
+    top: 395px;
+}
+
+/*NOMBRES APELLIDOS*/
+
+.camp_nombres{
+    display: block;
+    /* width: 170px; */
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:310px;
+    top: 483px;
+}
+
+.camp_apellidos{
+    display: block;
+    /* width: 170px; */
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 483px;
+}
+
+.camp_direccion{
+    display: block;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 567px;
+}
+
+/*--------*/
+
+.checkbox{
+    width: 35px;
+    height: 17px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:94px;
+    top: 625px;
+    border-color: rgb(89, 89, 89);
+}
+
+.text_checkbox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left:140px;
+    top: 625px;
+    color:rgb(43, 42, 42);
+    font-weight: bold;
+}
+.DatPers{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left:296px;
+    top: 625px;
+    font-weight: bold;
+}
+
+.camp_extras{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    width: 460px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left:105px;
+    top: 660px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    line-height : 15px;
+}
+
+#btnSiguiente{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    display: block;
+    width: 123px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 700px;
+    color:white;
+    background-color: #05BE50;
+    border-radius: 5px 5px 5px 5px;
+}
+
+b0{
+    position:absolute;
+    left: 125px;
+    top: 100px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+s1{
+    position:absolute;
+    left: 125px;
+    top: 148px;
+    width: 390px;
+    font-size: 17.4px;
+    letter-spacing: -.1px;
+}
+
+.img_1{
+    position:absolute;
+    left: 125px;
+    width: 65px;
+    height: 65px;
+    top: 210px;
+}
+
+b2{
+    position:absolute;
+    left: 209px;
+    top: 210px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+s2{
+    font-family: "Montserrat",Arial,sans-serif;
+    letter-spacing: 0.3px;
+    position:absolute;
+    left: 209px;
+    top: 240px;
+    width: 350px;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height : 20px;
+}
+
+.img_2{
+    position:absolute;
+    left: 125px;
+    width: 65px;
+    height: 65px;
+    top: 317px;
+}
+
+b3{
+    position:absolute;
+    left: 209px;
+    top: 320px;
+    font-size: 20px;
+}
+
+s3{
+    font-family: "Montserrat",Arial,sans-serif;
+    letter-spacing: 0.3px;
+    position:absolute;
+    left: 209px;
+    top: 345px;
+    width: 355px;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height : 20px;
+}
+
+.img_3{
+    position:absolute;
+    left: 125px;
+    width: 65px;
+    height: 65px;
+    top: 438px;
+}
+
+b4{
+    position:absolute;
+    left: 209px;
+    top: 439px;
+    font-size: 20px;
+}
+
+s4{
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+    position:absolute;
+    left: 209px;
+    top: 470px;
+    width: 355px;
+    font-size: 15px;
+    line-height : 20px;
+}
+#btnVerMas{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    width: 123px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    border-radius: 5px 5px 5px 5px;
+    left: 125px;
+    top: 530px;
+    color:white;
+    background-color: #05BE50;
+    border: 2px solid white;
+}
+
+text1{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 140px;
+    font-weight:500;
+}
+text2{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    /*WIDTH se encuentra en el html*/
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:105px;
+    top: 250px;
+    font-weight:500;
+
+}
+text3{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:255px;
+    top: 355px;
+    font-weight:500;
+
+}
+text4{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:55px;
+    top: 355px;
+    font-weight:500;
+
+}
+text5{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:55px;
+    top: 455px;
+    font-weight:500;
+
+}
+text6{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:260px;
+    top: 455px;
+    font-weight:500;
+}
+
+text7{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;/*Nos sirve para los comandos que siguen después*/
+    left:55px;
+    top: 538px;
+    font-weight:500;
+
+}
+
+.camp_clave{
+    display: block;
+    position: absolute;
+    top: 567px;
+}
+
+text8{
+    color: #878C8F;
+    font-family: "Geometria",sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left:250px;
+    top: 538px;
+    font-weight:500;
+
+}
+
+#claveul{
+    margin-left: 335px;
+}
+#labelclave{
+    margin-left: 45px;
+}

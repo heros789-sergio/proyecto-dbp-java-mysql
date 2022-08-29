@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/login_css.css">
+  <link rel="stylesheet" href="Css/keyboard.css">
+  <link rel="stylesheet" href="Css/detalles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="Js/iniciarsesion.js"></script>
+  <title>Banca por Internet</title>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="https://bpi.azureedge.net/assets-1-0-0/svg/logo-blue-white.svg?534Jjstr">
+  </div>
+  <div class="bloque_login">
+    <form>
+      <div class="relleno">
+        <div class="camp_numTarjeta">
+          <input style="width: 260px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);"
+            class="campos" id="num_tarjeta" type="text" placeholder="Número de tarjeta">
+        </div>
+        <div class="camp_numDoc">
+          <input style="width: 185px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);"
+            class="campos" id="dni" name="dni" type="text" placeholder="Número de documento">
+        </div>
+        <!-- PARTE DONDE SE IMPLEMENTARÁ EL KEYBOARD-->
+        <div class="camp_clave">
+          <input type="password" class="use-keyboard-input"
+            style="width: 260px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);"
+            class="campos" id="clave_web" name="clave_web" type="text" placeholder="Clave web">
+        </div>
+        <!-- KEYBOARD -->
+        <script src="Js/keyboard.js"></script>
+        <!-- KEYBOARD -->
+        <select class="select">
+          <!--Etiqueta option-->
+          <option value="value1">DNI</option>
+          <option value="value2" selected>CE</option>
+          <option value="value3">PAS</option>
+        </select>
+        <button id="btnAgregar" class="btn" type="button" href="inicio.jsp">Ingresar</button>
+        <p class="message_error" name="mensaje" id="mensaje"></p>
+        <!--Etiqueta input tipo checkbox-->
+        <input class="checkbox" type='checkbox' name='recordar_datos' value='20-39' /><a class="text_checkbox">Recordar
+          datos</a>
+        <div class="camp_extras">
+          <a style="text-decoration: none; color: white;" href="">Regístrate </a><a> | </a>
+          <a style="text-decoration: none; color: white;" href=""> Olvidé mi clave web </a><a> | </a>
+          <a style="text-decoration: none; color: white;" href=""> Ayuda</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="camp_color"></div>
+</body>
+
+</html>

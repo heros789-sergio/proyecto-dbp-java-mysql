@@ -1,0 +1,257 @@
+div.topBackP{
+    background-image: url(../Imagenes/img_hero_recaudacion_desktop@2x-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-bottom-right-radius: 30px;
+}
+div.topBackP div.topBackFlex{
+    
+    position: relative;
+    z-index: 10;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding: 0 6.666666666666667%;
+    box-sizing: border-box;
+}
+div.main{
+    box-sizing: border-box;
+    display: block;
+}
+div.main2{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+div.main2-content{
+    opacity: 1;
+    overflow: visible;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+    border-bottom: 1px solid #d9dadb;
+    width: 93.54838709677419%;
+    padding: 24px 0;
+    box-sizing: border-box;
+    display: block;
+}
+div.main2-contentb{
+    box-sizing: border-box;
+    display: block;
+}
+ul.main2-contenta{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+}
+ul.main2-contenta li{
+    color: #d6d8d9;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+}
+a.mani2{
+    color: #878c8f;
+    opacity: 0.4;
+    border: 0;
+    padding: 0;
+    font-size: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+a.mani2:hover{
+    color: #05be50;
+}
+li.mani1{
+    color: #0f191e;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+}
+div.carita{
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: block;
+}
+div.caritaflex{
+    padding: 64px 3.225806451612903%;
+    box-sizing: border-box;
+    display: block;
+}
+div.caritaflex1{
+    padding-left: 18.51851851851852%;
+    padding-right: 18.51851851851852%;
+    box-sizing: border-box;
+    display: block;
+}
+h2.caritaflex1{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -3px;
+    font-weight: 300;
+    font-family:'Geometria';
+    text-align: center;
+    margin-bottom: 40px;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    display: block;
+    box-sizing: border-box;
+}
+div.caritaflex2{
+    opacity: 1;
+    overflow: visible;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+div.caritaflex2-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    min-height: 647px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+div.caritaflex2-1-1{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+}
+div.caritaizq{
+    padding-top: 64px;
+    width: 18.51851851851852%;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+div.izq1{
+    text-align: center;
+    margin-bottom: 52px;
+    box-sizing: border-box;
+    display: block;
+}
+h2.cab{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    font-family:'Geometria';
+    margin-bottom: 4px;
+    display: block;
+    box-sizing: border-box;
+}
+p.lol{
+    color: inherit;
+    display: block;
+    text-align: center;
+    font-family:'Monserrat';
+    font-size: 14px;
+    color: #0f191e;
+}
+div.caritader{
+    padding-top: 64px;
+    width: 18.51851851851852%;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+div.cuadro{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 55.5%;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+}
+div.cuadro div.foto{
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    min-height: 647px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.foto img{
+    max-height: 100%;
+    width: 100%;
+    padding: 57px 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    color: inherit;
+}
+
+
+
+
+@font-face{
+    font-family:'InterbankFont';
+    src: url(../Fuentes/Cocon-RegularTR.ttf);
+}
+@font-face{
+    font-family:'Geometria';
+    src: url(../Fuentes/Geometria-Bold.ttf);
+}
+@font-face{
+    font-family:'Monserrat';
+    src: url(../Fuentes/Montserrat-Regular.otf);
+}

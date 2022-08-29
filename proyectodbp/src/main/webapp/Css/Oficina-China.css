@@ -1,0 +1,1061 @@
+div.topBack{
+    background-image: url(../Imagenes/img_hero-desktop-tuoficinaenchina-1x-min.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-bottom-right-radius: 30px;
+}
+div.topBack div.topBackFlex{
+    
+    position: relative;
+    z-index: 10;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding: 0 6.666666666666667%;
+    box-sizing: border-box;
+}
+div.topBackFlex div.bottomBackFlex{
+    
+    min-height: 300px;
+    padding: 40px 0;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+div.bottomBackFlex div.contentFlex{
+    height: 100%;
+    width: 76.92307692307692%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+div.contentFlex div.contentTitle{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.contentTitle h2.TituloTOP{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    font-family:'Geometria';
+    color: #fff;
+    box-sizing: border-box;
+}
+div.contentBacktitle{
+    margin-top: 12px;
+    width: 100%;
+    display: block;
+}
+div.contentBacktitle div.contentSubtitle{
+    box-sizing: border-box;
+    display: block;
+}
+div.contentSubtitle p{
+    color: white;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family:'Monserrat';
+}
+div.contentVerde{
+    display: inline-block;
+    box-sizing: border-box;
+}
+div.contentVerdeS{
+    margin-top: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+div.contentVerdeS a{
+    background-color: #fff;
+    color: #05be50;
+    width: 100%;
+    font-size: 14px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 0 32px;
+    border-radius: 4px;
+    font-family:'Geometria';
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    position: relative;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+div.contentVerdeS a span{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+div.main{
+    box-sizing: border-box;
+    display: block;
+}
+div.main2{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+div.main2-content{
+    opacity: 1;
+    overflow: visible;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+    border-bottom: 1px solid #d9dadb;
+    width: 93.54838709677419%;
+    padding: 24px 0;
+    box-sizing: border-box;
+    display: block;
+}
+div.main2-contentb{
+    box-sizing: border-box;
+    display: block;
+}
+ul.main2-contenta{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+}
+ul.main2-contenta li{
+    color: #d6d8d9;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+}
+a.mani2{
+    color: #878c8f;
+    opacity: 0.4;
+    border: 0;
+    padding: 0;
+    font-size: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+a.mani2:hover{
+    color: #05be50;
+}
+li.mani1{
+    color: #0f191e;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    font-family:'Geometria';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: .87px;
+}
+
+
+div.middleBack{
+    box-sizing: border-box;
+    display: block;
+}
+div.middleBack section.middleLits{
+    box-sizing: border-box;
+    display: block;
+}
+section.middleLits div.middleBox{
+    box-sizing: border-box;
+    display: block;
+}
+div.middleBox article.textBox{
+    padding: 52px 0;
+    box-sizing: border-box;
+    display: block;
+}
+article.textBox header{
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 32px;
+    padding: 0 6.666666666666667%;
+}
+article.textBox header h2{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+    font-family:'Geometria';
+    text-align: center;
+}
+article.textBox header h3{
+    text-transform: uppercase;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: rgb(100, 180, 230);
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family:'Monserrat';
+}
+div.contentBoxA{
+    padding: 0 !important;
+    box-sizing: border-box;
+    display: block;
+}
+div.contentBoxB{
+    position: absolute;
+    left: -10000em;
+    box-sizing: border-box;
+    display: block;
+}
+div.contentBox{
+    opacity: 1;
+    overflow: visible;
+    position: relative;
+    padding: 0 6.666666666666667%;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.contentBoxD{
+    transform: translateX(0%);
+    width: calc(233.333%);
+    transition-duration: 0.3s;
+    font-size: 0px;
+    padding: 4px 0;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    position: relative;
+    transition: all 0s;
+    box-sizing: border-box;
+}
+div.cajaA{
+    transition-duration: 0s;
+    transform: translateX(0%);
+    width: calc(100%);
+    box-sizing: border-box;
+    display: block;
+}
+div.cajaB{
+    height: 100%;
+    margin-right: 12.5%;
+    white-space: normal;
+    box-sizing: border-box;
+    display: block;
+}
+div.cajaC{
+    height: 100%;
+    margin-bottom: 0 !important;
+    border-radius: 20px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(217, 218, 219);
+    position: relative;
+    transition: border-color 0.25s ease-in-out, transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+    padding: 40px 14.285714285714286%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+div.cajaD1{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+div.cajaD1 img{
+    display: inline-block;
+    overflow: hidden;
+    height: 112px;
+    width: 112px;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+div.cajaD2{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: normal;
+}
+div.cajaD2 div.caja9{
+    text-align: center;
+    margin-bottom: 12px;
+}
+div.caja9 div.caja9-A{
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+div.caja9-A h2{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    font-family:'Geometria';
+    font-weight: normal;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+div.caja8{
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}
+div.caja8 p{
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    font-family:'Monserrat';
+}
+
+div.cuadroDesli .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+div.cuadroDesli .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+div.cuadroDesli .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.cuadroDesli{
+    margin: 0 9.67742% 0 12.90323% !important;
+    box-sizing: border-box;
+    display: block;
+}
+div.sectInfo{
+    box-sizing: border-box;
+    display: block;
+}
+section.secca{
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfo{
+    margin-bottom: 80px;
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoA{
+    width: 87.09677419354838%;
+    margin: 0 auto;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoB{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoB-1{
+    overflow-x: initial;
+    overflow-y: initial;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceded;
+}
+div.seccaUfoB-1A{
+    border-bottom: none;
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+div.seccaUfoB-1A a.A{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .1px;
+    font-family:'Geometria';
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 220px;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+a.A div.txtbarra{
+    color:#b7babc;
+    padding: 28px 5px;
+    display: flex;
+    align-items: center;
+    height: 88px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+div.txtbarra:hover span{
+    background-color: #fff;
+    color:#05be50;
+}
+a.A:hover div.txtbarra2{
+    color:#05be50;
+}
+a.A div.txtbarra1{
+    cursor: pointer;
+    color:#b7babc;
+    padding:  48px 24px 5px 20px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+}
+div.txtbarra1:hover span{
+    background-color: #fff;
+    color:#05be50;
+}
+a.A div.txtbarra2{
+    color:#b7babc;
+    padding: 5px 24px 5px 20px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eceded;
+    background-color: #fff;
+}
+div.txtbarra span{
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    color:#b7babc;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .1px;
+    font-family:'Geometria';
+    font-weight: 500;
+    text-align: center;
+}
+div.seccaUfoB-1B{
+    width: 20.37037037037037%;
+    margin-left: 1.8518518518518519%;
+    box-sizing: border-box;
+}
+div.seccaUfoB-1B div.A{
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+div.A div.A1{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-size: 0;
+}
+ul, ol{
+    list-style:none;
+}
+.nav li a{
+    text-decoration: none;
+    padding:0;
+}
+ul.tab{
+    padding:0;
+    margin:0;
+}
+.nav li a li a{
+    padding:0;
+}
+.nav >li{
+    float:left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    z-index: -1 ;
+}
+.nav li:hover>ul{
+    z-index: 2 ;
+    display:block;
+}
+div.seccaUfoC{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoC1{
+    transform: translateX(0%);
+    height: 100%;
+    white-space: nowrap;
+    transition-duration: 0.6s;
+    padding: 52px 0 80px;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoC2{
+    opacity: 1;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 6.666666666666667%;
+    box-sizing: border-box;
+}
+div.seccaUfoC2 div.seccaUfoC2-1{
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoC3{
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+    box-sizing: border-box;
+}
+div.seccaUfoC3-title{
+    width: 33.333333333333336%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+}
+div.seccaUfoC3-title h2{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -3px;
+    font-family:'Geometria';
+    font-weight: 300;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    white-space: normal;
+}
+div.seccaUfoC3-content{
+        margin-left: 7.407407407407407%;
+        margin-right: 1%;
+        width: 59.25925925925926%;
+        box-sizing: border-box;
+        display: block;
+        white-space: normal;
+}
+div.seccaUfoC3-content h3{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -.5px;
+    font-family:'Geometria';
+    font-weight: normal;
+}
+div.seccaUfoC3-content p{
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    font-family:'Monserrat';
+    font-weight: 400;
+    width: 100%;
+}
+div.seccaUfoC3-1{
+    margin-top: 52px;
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+    box-sizing: border-box;
+}
+div.seccaUfoC3-1 div.seccaUfoC3-content{
+        margin-left: 7.407407407407407%;
+        width: 59.25925925925926%;
+        box-sizing: border-box;
+        display: block;
+}
+
+div.seccaUfoC3-content ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:'Monserrat';
+}
+div.seccaUfoC3-content ul li{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    font-weight: 400;
+    font-family:'Monserrat';
+    
+}
+seccaUfoC3-content ul li::before{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    margin: auto;
+    background: #05be50;
+}
+.seccaUfoC .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.seccaUfoC .swiper-slide {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.seccaUfoC .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.seccaUfoC3-content thead{
+    vertical-align: middle;
+    border-color: inherit;
+    box-sizing: border-box;
+}
+div.seccaUfoC3-content tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+div.seccaUfoC3-content tr td{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px solid #eceded;
+    padding-right: 24px;
+    font-family:'Monserrat';
+    font-weight: 400;
+}
+div.table1{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: block;
+    font-family:'Monserrat';
+    font-weight: 400;
+}
+div.table2{
+    color: #b7babc;
+    position: relative;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+div.table2 i-icon{
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    font-size: 20px;
+    line-height: 16px;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+
+div.cotizar{
+    box-sizing: border-box;
+    display: block;
+}
+div.container-coti{
+    margin-bottom: 80px;
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: block;
+}
+div.visicoti{
+    opacity: 1;
+    overflow: visible;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.flexcoti{
+    border: 1px solid #D9DADB;
+    border-radius: 8px;
+    width: 87.09677419354838%;
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+div.cotimagei{
+    min-height: 264px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 22.22222222222222%;
+    max-width: 280px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+div.cotimagei img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    max-width: none;
+    vertical-align: middle;
+    border: 0;
+    color: inherit;
+    box-sizing: border-box;
+}
+div.cotitxt{
+    margin: 0 3.7037037037037037%;
+    padding: 62px 0;
+    width: 70.37037037037037%;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+}
+div.cotitxt div.showtxt{
+    margin-right: 13.88888888888889%;
+    width: 55.55555555555556%;
+    display: block;
+    box-sizing: border-box;
+}
+div.showtxt h2{
+    margin-bottom: 8px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-family:'Geometria';
+    font-weight: normal;
+    color: inherit;
+    box-sizing: border-box;
+    display: block;
+}
+div.showtxt p{
+    box-sizing: border-box;
+    display: block;
+    font-family:'Monserrat';
+    font-size: 14px;
+}
+div.cotitxt div.buttoncoti{
+    margin-left: auto;
+    width: 30.555555555555557%;
+    margin-right: 5.2631578947368425%;
+    box-sizing: border-box;
+    display: block;
+}
+div.buttoncoti div.verdebutt{
+    display: inline-flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+a.CotiButt{
+    background-color: #05be50;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    border: 0;
+    padding: 0 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    font-family:'Geometria';
+    position: relative;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a.CotiButt span{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+div.BoxActiva{
+    box-sizing: border-box;
+    display: block;
+}
+div.BoxsActiva{
+    opacity: 1;
+    overflow: visible;
+    margin-bottom: 80px;
+    background-color: #05be50;
+    transition: .25s ease-in-out;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+div.Container-Activa{
+    max-width: 1272px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: block;
+}
+div.flex-Activa{
+    min-height: 373px;
+    padding: 0 6.451612903225806%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+div.image-Activa{
+    margin-right: 3.7037037037037037%;
+    width: 33.333333333333336%;
+    box-sizing: border-box;
+    display: block;
+}
+div.imagi-Activa{
+    box-sizing: border-box;
+    display: block;
+}
+img.divertido{
+    max-width: 369px;
+    height: 304px;
+    vertical-align: middle;
+    border: 0;
+    color: inherit;
+    box-sizing: border-box;
+}
+div.texto-Activa{
+    width: 62.96296296296296%;
+    padding: 80px 0;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+div.texto-Activa h2.one{
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    display: block;
+    text-transform: uppercase;
+    font-family:'Monserrat';
+    font-weight: 700;
+    box-sizing: border-box;
+}
+div.texto-Activa h2.two{
+    width: 94.11764705882354%;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -3px;
+    font-family:'Geometria';
+    box-sizing: border-box;
+    display: block;
+}
+div.texto-Activa div.tre{
+    margin-top: 32px;
+    margin-bottom: 52px;
+    justify-content: flex-start;
+    display: flex;
+    box-sizing: border-box;
+    color: #fff;
+}
+div.tre div.tre1{
+    margin-right: 5.882352941176471%;
+    width: 29.41176470588235%;
+    box-sizing: border-box;
+    display: block;
+}
+div.tre div.tre3{
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 29.41176470588235%;
+    box-sizing: border-box;
+    display: block;
+}
+div.tre1 h2.tre{
+    margin-bottom: 0;
+    font-weight: 600 !important;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    font-family:'Monserrat';
+    box-sizing: border-box;
+    display: block;
+}
+div.tre3 h2.tre{
+    margin-bottom: 0;
+    font-weight: 600 !important;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    font-family:'Monserrat';
+    box-sizing: border-box;
+    display: block;
+}
+div.fourb{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+div.fourb a.four-button{
+    background-color: #fff;
+    color: #05be50;
+    width: 100%;
+    font-size: 14px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 0 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:'Geometria';
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    position: relative;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a.four-button span{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #05be50;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+@font-face{
+    font-family:'InterbankFont';
+    src: url(../Fuentes/Cocon-RegularTR.ttf);
+}
+@font-face{
+    font-family:'Geometria';
+    src: url(../Fuentes/Geometria-Bold.ttf);
+}
+@font-face{
+    font-family:'Monserrat';
+    src: url(../Fuentes/Montserrat-Regular.otf);
+}

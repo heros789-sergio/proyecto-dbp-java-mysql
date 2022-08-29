@@ -1,0 +1,300 @@
+.Cuadro_Opcion_1{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    margin-left:472px;
+    width:284px;
+    height:289px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_2{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    margin-left:38px;
+    width:284px;
+    height:289px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_3{
+    font-family: 'Monserrat';
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: 0.25px solid rgba(0,0,0,0.2);
+    border-radius: 20px 0px 20px 0px;
+    margin-left:38px;
+    width:284px;
+    height:289px;
+    transition:0.3s;
+}
+.Cuadro_Opcion_1:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Cuadro_Opcion_2:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Cuadro_Opcion_3:hover{
+    border-color: #00bb31;
+    transform:scale(1.02);
+}
+.Part_1{
+    font-family: 'Geometria';
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#64b4e6;
+    
+}
+.Part_2{
+    font-family: 'Monserrat';
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -2px;
+    color:black;
+}
+strong{
+    font-weight: bold;
+}
+.Cuadro_Productos_Online{
+    font-family: 'Geometria';
+    display: block;
+    margin-top: 90px;
+    margin-left: 389px;
+    background: #F0AA00;
+    height: 108px;
+    border-radius: 15px ;
+    justify-content: center;
+    width:1108px;
+    position: relative;
+}
+.Cuadro_Productos_Online img.joven_image{
+    display:inline-block;  
+    margin-left:165px;
+    width:162px;
+    height:118px;
+    margin-top:-10px;
+}
+.Texto_Image{
+    font-family: 'Geometria';
+    margin-left:370px;
+    margin-top: -75px;
+    color:#fff;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+.Image_Flechita{  
+    margin-left:970px;
+    margin-top: -75px;  
+    margin-bottom: 50px;
+    color:black;
+    
+}
+.C_O1_TEXT{
+    font-weight: bold;
+    align-content: center;
+    font-size: 20px;
+    margin-left: 65px;
+    width:150px;
+}
+.C_O2_TEXT{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width:220px;
+}
+.C_O3_TEXT{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width:220px;
+}
+.C_01_IMAGE{
+    margin-top:40px;
+}
+.C_02_IMAGE{
+    margin-top:40px;
+}
+.C_03_IMAGE{
+    margin-top:40px;
+}
+
+.C_01_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+.C_02_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+.C_03_ENLACE a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#00bb31;
+}
+.Cuadros_Opciones2{
+    display: block;
+    background:#0039a6;
+    padding: 104px 0 80px;
+    margin-top:-55px;
+    margin-left:-8px;
+    margin-right: -8px;
+}
+.Cuadros_Opciones2 p.TEXTO{
+    font-family:'Monserrat';
+    margin-left: 355px;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color:#fff;
+}
+.Cuadros_Opciones2_1{
+    display: inline-block;
+    align-content: center;
+    border: 0.25px solid rgba(255,255,255,0.0);
+    border-radius: 30px 0px 30px 0px;
+    margin-left:354px;
+    background-color: #335CB4;
+    width:370px;
+    height:264px;
+    transition:0.3s;
+}
+.Cuadros_Opciones2_2{
+    display: inline-block;
+    align-content: center;
+    border: 0.25px solid rgba(255,255,255,0.0);
+    border-radius: 30px 0px 30px 0px;
+    margin-left:36px;
+    background-color: #335CB4;
+    width:370px;
+    height:264px;
+    transition:0.3s;
+}
+.Cuadros_Opciones2_3{
+    display: inline-block;
+    align-content: center;
+    border: 0.25px solid rgba(255,255,255,0.0);
+    border-radius: 30px 0px 30px 0px;
+    margin-left:36px;
+    background-color: #335CB4;
+    width:370px;
+    height:264px;
+    transition:0.3s;
+}
+.Cuadros_Opciones2_1:hover{
+    background: rgba(255,255,255,0.23);
+    transform:scale(1.02);
+}
+.Cuadros_Opciones2_2:hover{
+    background: rgba(255,255,255,0.23);
+    transform:scale(1.02);
+}
+.Cuadros_Opciones2_3:hover{
+    background: rgba(255,255,255,0.23);
+    transform:scale(1.02);
+}
+.Cuadro_Opciones2_1_1{
+    font-family:'Monserrat';
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top:45px;
+    margin-left: 50px;
+    margin-right:120px;
+}
+.Cuadro_Opciones2_1_1 p.Texto_1{
+    font-size: 18px;
+}
+.Cuadro_Opciones2_1_1 p.Enlace_1{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 800;
+}
+.Cuadro_Opciones2_2_1{
+    font-family:'Monserrat';
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top:45px;
+    margin-left: 50px;
+    margin-right:120px;
+}
+.Cuadro_Opciones2_2_1 p.Texto_2{
+    font-size: 18px;
+}
+.Cuadro_Opciones2_2_1 p.Enlace_2{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 800;
+}
+.Cuadro_Opciones2_3_1{
+    font-family:'Monserrat';
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top:45px;
+    margin-left: 50px;
+    margin-right:120px;
+}
+.Cuadro_Opciones2_3_1 p.Texto_3{
+    font-size: 17px;
+}
+.Cuadro_Opciones2_3_1 p.Enlace_3{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 800;
+}
+.contenedor_opciones{
+    display: block;
+    margin-top: 52px;
+}
+.contenedor_opciones img{
+    margin-left: 198px;
+    margin-top: -85px;
+}
+@font-face{
+    font-family:'InterbankFont';
+    src: url(../Fuentes/Cocon-RegularTR.ttf);
+}
+@font-face{
+    font-family:'Geometria';
+    src: url(../Fuentes/Geometria-Bold.ttf);
+}
+@font-face{
+    font-family:'Monserrat';
+    src: url(../Fuentes/Montserrat-Regular.otf);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Css/abrir_cuenta.css?6756453" rel="stylesheet" type="text/css"/>
+    <title>Abre tu cuenta de ahorros simple</title>
+</head>
+<body>
+    <header id="main-header">
+        <a id="logo-header" href="#">
+            <img class="imagen"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Interbank_logo.svg/2560px-Interbank_logo.svg.png">
+        </a> <!-- / #logo-header -->
+    </header><!-- / #main-header -->
+    <section id="main-content">
+        <a>
+            <b0>Cuenta Simple</b0><br>
+            <s1>Ábrela 100% online, ahorra y disfruta de todos sus beneficios</s1>​<br>
+            <img class="img_1" src="https://content-us-2.content-cms.com/9b3f67ef-5a9f-4acc-8ce8-bcc27fa681c7/dxdam/39/39585d0a-e25e-4d5d-85ab-6795a22dab3f/promociones%402x.png">
+            <b2>Sorteamos 1 Apple Pack</b2><br>
+            <s2>Ahorra en tu cuenta simple y podrás ganar un iPhone 12 + Airpods + Airtag</s2>​<br>
+            <img class="img_2" src="https://content-us-2.content-cms.com/9b3f67ef-5a9f-4acc-8ce8-bcc27fa681c7/dxdam/4c/4c4555fb-b329-4cb1-9698-ac2e932442ff/disponibilidad.png">
+            <b3>Costo cero</b3><br>
+            <s3>No cobra mantenimiento. Además, realiza tus pagos y transferencias interbancarias GRATIS en nuestros canales
+                digitales.</s3><br>
+            <img class="img_3" src="https://interbank.pe/documents/20124/100578/banca-digital.png/cf526405-847a-21ad-af9e-7173a352f05a?t=1625154577295">
+            <b4>Ahorra en tu Alcancía Virtual</b4><br>
+            <s4>Fácil, seguro y gana intereses.</s4><br>
+        </a>
+        <button id="btnVerMas" class="btn" type="button">Ver más</button>
+
+    </section> <!-- / #main-content -->
+
+    <div class="bloque_login">
+        <h1 class="titulo2">Ingresa tus datos y abre tu cuenta de ahorros al instante</h1>
+        <form class="formulario" method="get" action="RegistrarUsuario" enctype="multipart/form-data" >
+            <div class="relleno">
+                <text1>Número de DNI</text1>
+                <div class="camp_dni">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 245px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="num_dni" name="num_dni" type="text" placeholder="">
+                </div>
+                <text3>Celular</text3>
+                <div class="camp_celular">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 185px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="celular" name="celular" type="text" placeholder="     0000000000">
+                </div>
+                <text2>Email</text2>
+                <div class="camp_email">
+                    <input type="email" style="border-radius: 5px 5px 5px 5px;height: 46px;width: 245px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="email" name="email" type="text" placeholder="">
+                </div>
+                <text4>Operador</text4>
+                <select class="select">
+                    <!--Etiqueta option-->
+                    <option value="value1">Claro</option> 
+                    <option value="value2" selected>Entel</option>
+                    <option value="value3">Movistar</option>
+                </select>
+
+
+                /*PARTE DE OTROS CUADROS*/
+                <text5>Nombres</text5>
+                <div class="camp_nombres">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 185px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="nombres" name="nombres" type="text" placeholder="">
+                </div>
+
+                <text6>Apellidos</text6>
+                <div class="camp_apellidos">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 185px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="apellidos" name="apellidos" type="text" placeholder="">
+                </div>
+                <text7>Dirección</text7>
+                <div class="camp_direccion">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 220px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="direccion" name="direccion" type="text" placeholder="">
+                </div>
+
+                <text8 id="labelclave">Clave</text8>
+                <div id="claveul" class="camp_clave">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 200px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="clave_web" name="clave_web" type="password" placeholder="">
+                </div>
+
+                <!-- <text8>Clave</text8>
+                <div class="camp_direccion">
+                    <input style="border-radius: 5px 5px 5px 5px;height: 46px;width: 265px;border-top: none;border-left: none;border-right: none;color: rgb(160, 160, 160);" class="campos" id="clave_web" name="clave_web" type="password" placeholder="">
+                </div> -->
+
+
+                <!--Etiqueta input tipo checkbox-->
+                <input class="checkbox" type='checkbox' name='autorizar' value='20-39' /><a class="text_checkbox">Autorizo a Interbank el</a>
+                <a class="DatPers" style="text-decoration: none; color: #05BE50;" href="">Tratamiento de Datos Personales.</a>
+                <div class="camp_extras">
+                    <a style="color: #878C8F;text-align: left;line-height: 2px;">
+                        Este sitio esta protegido por reCAPTCHA. Aplican la 
+                        <a2 style="text-decoration: none; color: #05BE50;" href="https://policies.google.com/privacy"> Política de Privacidad </a2>de Google y los
+                        <a3 style="text-decoration: none; color: #05BE50;" href="https://policies.google.com/terms"> Términos del servicio </a3>
+                    </a>
+                </div>
+                <button id="btnSiguiente" class="btn" type="submit">Siguiente</button>
+            </div>
+        </form>
+    </div>
+
+    <footer id="main-footer">
+        <p>TREA referencial de 0.0% en soles considerando una TEA de 0.0% con saldo promedio del mes mayor o igual a S/
+            1,000 durante un plazo de 12 meses, asumiendo que en todo el periodo no existan transacciones adicionales a
+            la apertura de la cuenta, intereses de S/ 0.00. Saldo mínimo de equilibrio S/ 0.00. No cobra comisión
+            Interplaza en cajeros Global Net. Afecto a ITF: 0.005%. Fondo Seguro de Depósito (FSD) Junio – Agosto 2022
+            es de S/ 121,910.00 FSD varia trimestralmente. Más información sobre el FSD tasas de interés, comisiones,
+            gastos y penalidades en el tarifario, en Tiendas Interbank o en www.interbank.pe<br>
+            <b>Campaña Apple</b>:Campaña valida del 1 al 31 de agosto del 2022. Participan del sorteo clientes que abran su
+            Cuenta Simple por canales digitales y mantengan un saldo promedio mensual de S/150 o US$40. Participan del
+            sorteo únicamente los clientes que cumplan con las condiciones mencionadas. Se acumulará por cada S/1
+            ahorrado una opción y por cada $1 ahorrado 3 opciones. Premio: 1 premio para sortear en total. Un premio por
+            cliente ganador. Premio conformado por 1 iPhone 12 64 GB + Air Pods con case de carga + AirTag. Imágenes
+            referenciales, colores sujetos a stock. Clientes que descarguen y se registren en Interbank APP multiplican
+            sus opciones x2. Promoción válida a nivel nacional. La fecha del sorteo será el 16/09/2022. Los ganadores
+            serán publicados en los canales del banco. Un ejecutivo de Interbank.pe se contactará con los ganadores, vía
+            telefónica o correo electrónico hasta el 30/09/2022 a los datos registrados por el cliente al momento de la
+            apertura de la cuenta. Se indicará al ganador la hora y fecha de recojo del premio. El premio se entregará
+            hasta el 17/10/2022. En caso no se encuentre respuesta del ganador por ninguno de los canales comunicados
+            hasta el 30/10/2022, el premio pasará a disposición de Interbank y se volverá a sortear.<br>
+            <b>Campaña AFP</b>: Participan del sorteo clientes con solicitud de retiro de AFP en cuenta Interbank. Campaña
+            válida hasta el 15 de Agosto del 2022. Mecánica del sorteo: 20 ganadores que hayan solicitado el retiro de
+            su AFP con desembolso en una cuenta Interbank. Premios: 20 premios que constan en triplicar el monto de los
+            fondos recibidos de su AFP. El premio se abonará en la Cuenta Simple AFP máximo el 30 de Noviembre de 2022.
+            Fecha del Sorteo 23 de agosto del 2022. Los ganadores del sorteo serán publicados a través de los canales
+            del banco. Cuenta simple AFP: cuenta en la cual recibes el abono de tu AFP.</p>
+    </footer> <!-- / #main-footer -->
+    <footer2 class="footer2">
+        <p>© Copyright 2019 - Todos los derechos reservados</p>
+    </footer2> <!-- / #main-footer -->
+
+</body>
+
+</html>
